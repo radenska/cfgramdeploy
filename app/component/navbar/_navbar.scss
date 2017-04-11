@@ -1,0 +1,32 @@
+@import '../../scss/lib/theme/_vars.scss';
+
+.smallButt {
+  display: inline-block;
+  background-color: $mainBackground;
+  border: 0.5px solid $mainBackground;
+  border-radius: 6px;
+  font-size: 11px;
+  color: $highlightBackground;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 1.5px;
+  padding-bottom: 3px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.navbar {
+  width: 100%;
+  ul, div, nav {
+    display: inline-block;
+  }
+  nav {
+    float: right;
+  }
+  div {
+    float: right;
+  }
+  img {
+    width: 25px;
+  }
+}

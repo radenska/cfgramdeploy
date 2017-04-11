@@ -1,0 +1,26 @@
+@import '../../scss/lib/theme/_vars.scss';
+
+.landing {
+  font-size: 13px;
+  padding-bottom: 396px;
+  p {
+    display: inline-block;
+    color: #888888;
+    text-align: right;
+    position: relative;
+    left: 180px;
+  }
+  a {
+    font-weight: bolder;
+    display: inline-block;
+    color: $highlightBackground;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+  }
+}
+
+.join-container {
+  width: 94%;
+  margin: auto;
+}

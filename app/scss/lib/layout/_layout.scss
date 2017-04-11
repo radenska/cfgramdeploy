@@ -1,0 +1,69 @@
+@import '../theme/_vars.scss';
+
+body {
+  margin-top: 45px;
+  width: 435px;
+  height: 810px;
+  font-family: $fontStyle;
+}
+
+header {
+  width: 100%;
+  color: $white;
+  background-color: $highlightBackground;
+  font-size: 18px;
+  ul {
+    padding: 15px;
+  }
+}
+
+main {
+  background-color: $mainBackground;
+  width: 433px;
+  border-left: 1px solid $footerBackground;
+  border-right: 1px solid $footerBackground;
+  article {
+    color: $highlightBackground;
+    font-size: 14px;
+    padding-top: 30px;
+  }
+  form {
+    margin-right: 3%;
+  }
+
+  .btn-std {
+    font-size: 14px;
+    border: 1px solid $highlightBackground;
+    border-radius: 2px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    color: $mainBackground;
+    background-color: $highlightBackground;
+    display: inline-block;
+    position: relative;
+    left: 265px;
+  }
+
+  .input-std {
+    border-radius: 2px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $footerBackground;
+    border: 0.5px solid $footerBackground;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: $footerBackground;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

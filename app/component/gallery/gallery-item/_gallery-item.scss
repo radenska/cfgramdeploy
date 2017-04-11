@@ -1,0 +1,55 @@
+@import '../../../scss/lib/theme/_vars.scss';
+
+.gallery-item {
+  display: block;
+  clear: both;
+  width: 98%;
+  background-color: $mainBackground;
+
+  .current-item {
+    display: block;
+    text-align: left;
+    color: $highlightBackground;
+    background-color: $footerBackground;
+    border-radius: 7px;
+    padding-bottom: 62px;
+    span {
+      font-weight: bold;
+      display: inline-block;
+      float: left;
+      clear: left;
+    }
+    p {
+      display: inline-block;
+      font-weight: normal;
+      color: #696969;
+      float: left;
+      clear: right;
+      margin-left: 14px;
+    }
+  }
+
+}
+.button-container {
+  display: block;
+  background-color: $mainBackground;
+  margin-top: 15px;
+  clear: right;
+  margin-bottom: 70px;
+
+  button:first-of-type {
+    background-color: $highlightBackground;
+    color: $mainBackground;
+    margin-left: 10px;
+  }
+  button {
+    float: right;
+    font-size: 12px;
+    border-radius: 7px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+  }
+}

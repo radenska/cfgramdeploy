@@ -1,0 +1,13 @@
+@import '../../../scss/lib/theme/_vars.scss';
+
+.create-gallery {
+  img {
+    width: 25px;
+  }
+  button {
+    left: 254px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+  }
+}

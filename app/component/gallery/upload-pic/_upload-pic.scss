@@ -1,0 +1,35 @@
+.upload-pic {
+  display: block;
+  div {
+    article {
+      margin-top: 0;
+      text-align: center;
+      display: inline-block;
+    }
+    button {
+      display: inline-block;
+    }
+    float: right;
+  }
+  article {
+    text-decoration: underline;
+    margin-bottom: 1.3vw;
+  }
+  input {
+    width: 100%;
+    border-radius: 0.5vw;
+    padding: 0.7vw;
+    background-color: #B0B0B0;
+    color: white;
+    margin-bottom: 0;
+  }
+  button {
+    font-size: 12px;
+    border-radius: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 1.5vw;
+  }
+}

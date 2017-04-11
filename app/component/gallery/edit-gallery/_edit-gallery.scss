@@ -1,0 +1,57 @@
+@import '../../../scss/lib/theme/_vars.scss';
+
+.edit {
+  margin-top: -15px;
+  width: 100%;
+  background-color: $mainBackground;
+  input {
+    display: inline-block;
+    width: 67%;
+    margin-top: -5px;
+    color: #696969;
+    float: left;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #B0B0B0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    border: 1px solid #606060;
+  }
+
+  div {
+    width: 100%;
+    border-radius: 7px;
+    background-color: $footerBackground;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-right: 10px;
+  }
+
+  button {
+    left: 152px;
+    font-size: 12px;
+    border-radius: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  fieldset {
+    text-align: left;
+  }
+  fieldset:first-of-type {
+    input {
+      margin-top: 9px;
+      width: 78%;
+    }
+    .item-label {
+      margin-top: 14px;
+    }
+  }
+  .item-label {
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+  }
+}

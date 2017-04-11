@@ -1,0 +1,41 @@
+@import '../../../scss/lib/theme/_vars.scss';
+
+.login {
+  article {
+    color: $highlightBackground;
+    font-size: 14px;
+    padding-top: 30px;
+  }
+  form {
+    margin-right: 3%;
+  }
+}
+
+.btn-std {
+  font-size: 14px;
+  border: 1px solid $highlightBackground;
+  border-radius: 2px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  color: $mainBackground;
+  background-color: $highlightBackground;
+  display: inline-block;
+  position: relative;
+  left: 265px;
+}
+
+.input-std {
+  border-radius: 2px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: $footerBackground;
+  border: 0.5px solid $footerBackground;
+}

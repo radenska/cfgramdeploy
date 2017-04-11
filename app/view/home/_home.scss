@@ -1,0 +1,46 @@
+@import '../../scss/lib/theme/_vars.scss';
+
+
+.update-gallery {
+    width: 95%;
+  button {
+    left: 210px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+  }
+}
+
+.container {
+  width: 94%;
+  margin: auto;
+  ul {
+    padding-bottom: 200px;
+    article {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+    }
+  }
+  li {
+    display: block;
+    width: 98%;
+    background-color: $footerBackground;
+    color: $highlightBackground;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    span {
+      display: block;
+      text-align: left;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      p {
+        display: inline;
+        font-weight: bold;
+      }
+    }
+  }
+}
